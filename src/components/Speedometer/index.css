@@ -1,0 +1,100 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #07080c;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.speedometer-image {
+  width: 550px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #cbd5e1;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+.Accelerate-button {
+  background-color: #0b69ff;
+  border-radius: 4px;
+  color: #ffffff;
+  border-width: 0px;
+  height: 25px;
+  width: 80px;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.Apply-Brakes-button {
+  background-color: transparent;
+  border-radius: 4px;
+  color: #94a3b8;
+  border-width: 2px;
+  border-color: #94a3b8;
+  height: 25px;
+  width: 100px;
+  margin-right: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .main-heading {
+    font-size: 38px;
+  }
+
+  .speedometer-image {
+    width: 650px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+
+  .paragraph {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .main-heading {
+    font-size: 46px;
+  }
+
+  .speedometer-image {
+    width: 800px;
+  }
+
+  .heading {
+    font-size: 38px;
+  }
+
+  .paragraph {
+    font-size: 28px;
+  }
+}
